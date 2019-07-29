@@ -4,7 +4,7 @@
 
 ### Data Science
 
-[Predict Breast Cancer with RF, PCA and SVM](/project/breast-cancer.ipynb)
+[Predict Breast Cancer with RF, PCA and SVM](/projects/breast-cancer.ipynb)
 
 ![alt text](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast_cancer.png "Predict Breast Cancer")
 
