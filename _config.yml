@@ -1,16 +1,18 @@
 title: Chris Tran
+
 logo: "/images/picture.png?raw=true"
+
 description:
+  <p align="center">
+  <a href="https://drive.google.com/open?id=17VlFccAEG8ObgYwuLWj0nAdgeIaO3NNE">Resume</a> |
+  <a href="https://www.linkedin.com/in/chriskhanhtran/">LinkedIn</a> |
+  <a href="https://github.com/chriskhanhtran">GitHub</a>
+  </p>
   <p align="justify">
   I am currently pursing a Master's degree in Business Analytics, Data Science at Simon Business School, University of Rochester.
   <br><br>
   I am looking for a job opportunity where I will join a team to utilize advanced analytics and machine learning techniques to build models capable of leveraging all data that business generates and develop solutions that help deliver significant value to the organization.
   <br><br>
-  </p>
-  <p align="center">
-  <a href="https://drive.google.com/open?id=17VlFccAEG8ObgYwuLWj0nAdgeIaO3NNE">Resume</a> |
-  <a href="https://www.linkedin.com/in/chriskhanhtran/">LinkedIn</a> |
-  <a href="https://github.com/chriskhanhtran">GitHub</a>
   </p>
   
 theme: jekyll-theme-minimal
