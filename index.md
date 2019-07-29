@@ -8,6 +8,7 @@
 
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machines model to predict whether a patient has breast cancer.</div>
 
+
 ![alt text](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast_cancer.png "Predict Breast Cancer")
 
 ---
