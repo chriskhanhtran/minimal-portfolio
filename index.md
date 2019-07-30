@@ -16,7 +16,7 @@
 
 <div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a form that machine learning algorithms can understand. Next I train a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I will classify unlabel messages into normal or spam.</div>
 
-![alt text](hhttps://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/sms.png "NLP")
+![alt text](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/sms.png "NLP")
 
 ---
 
