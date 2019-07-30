@@ -30,6 +30,8 @@
 
 ### Filmed by Me
 
+<div style="text-align: justify">Besides Data Science, I also have a greate passion for photography and films. Below are the films I documented while traveling and meeting amazing people.</div>
+
 - [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
 - [The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
 - [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
