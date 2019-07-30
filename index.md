@@ -12,7 +12,7 @@
      alt="Predict Breast Cancer"
      style="float: left; margin-right: 10px;" />
 
----
+<hr>
 
 [Detect Spam Messages - Natural Language Processing](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-sms-nlp.ipynb)
 
@@ -22,7 +22,7 @@
      alt="NLP"
      style="float: left; margin-right: 10px;" />
      
----
+<hr>
 
 [Business Analytics Conference 2018: How is NYC's Government Using Money?](/pdf/bac2018.pdf)
 
@@ -32,7 +32,7 @@
      alt="BAC2018"
      style="float: left; margin-right: 10px;" />
      
----
+<hr>
 
 ### Filmed by Me
 
@@ -41,5 +41,5 @@
 - [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
 - [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
 
----
+<hr>
 
