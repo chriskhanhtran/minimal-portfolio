@@ -33,3 +33,7 @@
      style="float: left; margin-right: 10px;" />
      
 ---
+
+### Filmed by Me
+
+[![Ada Von Weiss - You Regret (Winter at Niagara)](http://img.youtube.com/vi/-5esqvmPnHI/0.jpg)](https://www.youtube.com/watch?v=-5esqvmPnHI)
