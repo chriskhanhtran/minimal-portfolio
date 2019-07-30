@@ -33,7 +33,6 @@
      style="float: left; margin-right: 10px;" />
      
 ---
----
 
 ### Filmed by Me
 [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
@@ -45,3 +44,6 @@
 [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
 <br>
 [![Ada Von Weiss - You Regret (Winter at Niagara)](http://img.youtube.com/vi/-5esqvmPnHI/0.jpg)](https://www.youtube.com/watch?v=-5esqvmPnHI)
+
+---
+
