@@ -20,9 +20,10 @@
 
 ---
 
-[How is NYC's Government Using Money?](/pdf/bac2018.pdf)
+[Business Analytics Conference 2018: How is NYC's Government Using Money?](/pdf/bac2018.pdf)
+
+<div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for best research poster out of 18 participating colleges.</div>
 
 ![alt text](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/bac2018.JPG "BAC-2018")
 
 ---
-
