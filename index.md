@@ -33,17 +33,13 @@
      style="float: left; margin-right: 10px;" />
      
 ---
----
 
 ### Filmed by Me
-[Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
-<br>
-[The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
-<br>
-[In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
-<br>
-[In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
-<br>
+
+- [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
+- [The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
+- [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
+- [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
 
 ---
 
