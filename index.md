@@ -4,7 +4,7 @@
 
 ### Data Science
 
-[**Predict Breast Cancer with RF, PCA and SVM**](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html)
+[**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html)
 
 <p align="left">
 <a href="https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html">Notebook</a> |
@@ -17,7 +17,7 @@
 <br>
 
 ---
-[**Detect Spam Messages - Natural Language Processing**](https://chriskhanhtran.github.io/posts/detect-spam-sms-nlp.html)
+[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/posts/detect-spam-sms-nlp.html)
 
 <p align="left">
 <a href="https://chriskhanhtran.github.io/posts/detect-spam-sms-nlp.html">Notebook</a> |
