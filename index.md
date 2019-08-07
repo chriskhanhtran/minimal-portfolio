@@ -37,7 +37,6 @@
 
 ### Filmed by Me
 
-<br>
 <div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
 <br>
 
