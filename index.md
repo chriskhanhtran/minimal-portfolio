@@ -6,7 +6,9 @@
 
 [**Predict Breast Cancer with RF, PCA and SVM**](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html)
 
-[View Notebook](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html) - [GitHub](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/python-predict-breast-cancer-rf-pca-svm.ipynb)
+<div style="text-align: center">
+  [Notebook](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html) | [GitHub](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/python-predict-breast-cancer-rf-pca-svm.ipynb)
+  </div>
 
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
 <br>
