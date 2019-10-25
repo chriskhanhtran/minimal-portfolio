@@ -4,7 +4,7 @@
 
 ### Data Science
 
-[**Kaggle: Predict Ames House Price - Advanced Regression Techniques**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+[**Kaggle: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
 
 <p align="left">
 <a href="https://chriskhanhtran.github.io/projects/ames-house-price.html">Notebook</a> |
