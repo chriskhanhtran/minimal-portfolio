@@ -10,7 +10,7 @@
 <a href="https://chriskhanhtran.github.io/projects/ames-house-price.html">Notebook</a> |
 <a href="https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb">GitHub</a>
 </p>
-<div style="text-align: justify">After my first two data science projects where I solved classification problems using Random Forest and Support Vector Machine models, I am looking to expand my skill set by doing a comprehensive regression project. First I performed comprehensive EDA to understand linear relationships among the most important variables. Then I handled these missing values, outliers, cleanse the data and perform feature engineering. Lastly, I built machine learning models to predict house prices. By the time I write this notebook, my best model has Mean Absolute Error of 12293.919, ranking 95/15502, approximately top 0.6% in the Kaggle leaderboard.</div>
+<div style="text-align: justify">After my first two data science projects solving classification problems, I am looking to expand my skill set by doing a comprehensive regression project. The Ames Housing dataset describes the sale of individual residential property in Ames, Iowa from 2006 to 2010. First, I performed comprehensive EDA to understand important variables. Then, I handled these missing values, outliers, cleanse the data and perform feature engineering. Lastly, I built machine learning models to predict house prices. By the time I write this notebook, my best model has Mean Absolute Error of 12293.919, ranking 95/15502, approximately top 0.6% in the Kaggle leaderboard.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/ames-house-price.jpg"/>
 <br>
