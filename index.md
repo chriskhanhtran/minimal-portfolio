@@ -4,6 +4,18 @@
 
 ### Data Science
 
+[**Kaggle: Predict Ames House Price - Advanced Regression Techniques**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+
+<p align="left">
+<a href="https://chriskhanhtran.github.io/projects/ames-house-price.html">Notebook</a> |
+<a href="https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb">GitHub</a>
+</p>
+<div style="text-align: justify">After my first two data science projects where I solved classification problems using Random Forest and Support Vector Machine models, I am looking to expand my skill set by doing a comprehensive regression project. First I performed comprehensive EDA to understand linear relationships among the most important variables. Then I handled these missing values, outliers, cleanse the data and perform feature engineering. Lastly, I built machine learning models to predict house prices. By the time I write this notebook, my best model has Mean Absolute Error of 12293.919, ranking 95/15502, approximately top 0.6% in the Kaggle leaderboard.</div>
+<br>
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast_cancer.png"/>
+<br>
+
+---
 [**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/projects/breast-cancer.html)
 
 <p align="left">
