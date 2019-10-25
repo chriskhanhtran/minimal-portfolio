@@ -4,11 +4,11 @@
 
 ### Data Science
 
-[**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html)
+[**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/projects/breast-cancer.html)
 
 <p align="left">
-<a href="https://chriskhanhtran.github.io/posts/python-predict-breast-cancer-rf-pca-svm.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/python-predict-breast-cancer-rf-pca-svm.ipynb">GitHub</a>
+<a href="https://chriskhanhtran.github.io/projects/breast-cancer.html">Notebook</a> |
+<a href="https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb">GitHub</a>
 </p>
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
 <br>
@@ -16,11 +16,11 @@
 <br>
 
 ---
-[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/posts/detect-spam-sms-nlp.html)
+[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
 
 <p align="left">
-<a href="https://chriskhanhtran.github.io/posts/detect-spam-sms-nlp.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-sms-nlp.ipynb">GitHub</a>
+<a href="https://chriskhanhtran.github.io/projects/detect-spam-nlp.html">Notebook</a> |
+<a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb">GitHub</a>
 </p>
 <div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a form that machine learning algorithms can understand. Next I train a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I will classify unlabel messages into normal or spam.</div>
 <br>
