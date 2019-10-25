@@ -34,7 +34,7 @@
 <a href="https://chriskhanhtran.github.io/projects/detect-spam-nlp.html">Notebook</a> |
 <a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb">GitHub</a>
 </p>
-<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a form that machine learning algorithms can understand. Next I train a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I will classify unlabel messages into normal or spam.</div>
+<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/sms.png"/>
 <br>
