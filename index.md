@@ -4,13 +4,9 @@
 ### Natural Language Processing
 My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 
-[**Neural Machine Translation:**](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4) An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence.
+[**Neural Machine Translation:**](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4) An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence. ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4))
 
-[GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4)
-
-[**Dependency Parsing:**](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3) A Neural Transition-Based Dependency Parsing system with one-layer MLP.
-
-[GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)
+[**Dependency Parsing:**](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3) A Neural Transition-Based Dependency Parsing system with one-layer MLP. ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3))
 
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png"/>
 
