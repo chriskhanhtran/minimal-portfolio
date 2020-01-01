@@ -13,13 +13,25 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 ### Data Science
 
-[**Kaggle: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+[**Credit Risk Prediction Web App**](https://github.com/chriskhanhtran/credit-risk-prediction)
+
+<p align="left">
+<a href="http://credit-risk.herokuapp.com/">Web App</a> |
+<a href="https://github.com/chriskhanhtran/credit-risk-prediction">GitHub</a>
+</p>
+<div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
+<br>
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/credit-risk-webapp.png"/>
+<br>
+
+---
+[**Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
 
 <p align="left">
 <a href="https://chriskhanhtran.github.io/projects/ames-house-price.html">Notebook</a> |
 <a href="https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb">GitHub</a>
 </p>
-<div style="text-align: justify">The Ames Housing dataset describes the sale of individual residential property in Ames, Iowa from 2006 to 2010. First, I performed comprehensive EDA to understand important variables. Then, I handled these missing values, outliers, cleanse the data and perform feature engineering. Lastly, I built machine learning models to predict house prices. By the time I wrote this notebook, my best model had Mean Absolute Error of 12293.919, ranking 95/15502, approximately top 0.6% in the Kaggle leaderboard.</div>
+<div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/ames-house-price.jpg"/>
 <br>
