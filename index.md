@@ -17,6 +17,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <p align="left">
 <a href="http://credit-risk.herokuapp.com/">Web App</a> |
+<a href="https://github.com/chriskhanhtran/credit-risk-prediction/blob/master/documents/Notebook.ipynb">Notebook</a> |
 <a href="https://github.com/chriskhanhtran/credit-risk-prediction">GitHub</a>
 </p>
 <div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
