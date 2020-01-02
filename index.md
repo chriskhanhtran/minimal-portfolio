@@ -1,7 +1,9 @@
-## Portfolio
+# Portfolio
 
 ---
-### Natural Language Processing
+## Natural Language Processing
+
+### CS224n: Natural Language Processing with Deep Learning
 My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 
 [**Neural Machine Translation:**](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4) An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a4)).
@@ -10,8 +12,21 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png"/>
 
+### NLP Projects
+[**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
+
+<p align="left">
+<a href="https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html">Notebook</a> |
+<a href="https://github.com/chriskhanhtran/facebook-detect-food-trends">GitHub</a>
+</p>
+<div style="text-align: justify">I first built co-occurence matrix of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occurs more than by chance, I computed Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
+<br>
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png"/>
+<br>
+
+
 ---
-### Data Science
+## Data Science
 
 [**Credit Risk Prediction Web App**](https://github.com/chriskhanhtran/credit-risk-prediction)
 
@@ -74,7 +89,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 ---
 
-### Filmed by Me
+## Filmed by Me
 
 <div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
 <br>
