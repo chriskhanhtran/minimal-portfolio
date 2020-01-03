@@ -12,7 +12,8 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png"/>
 
-### NLP Projects
+---
+
 [**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
 
 <p align="left">
@@ -23,7 +24,6 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png"/>
 <br>
-
 
 ---
 ## Data Science
@@ -89,7 +89,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 ---
 
-## Filmed by Me
+## Filmed by me
 
 <div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
 <br>
