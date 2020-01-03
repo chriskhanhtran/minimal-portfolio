@@ -100,3 +100,4 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 - [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
 
 ---
+<center>© 2020 Khanh Tran.</center>
