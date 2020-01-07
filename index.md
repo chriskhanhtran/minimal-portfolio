@@ -25,12 +25,11 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+[**Detect Spam Messages - TF-IDF and Naive Bayes Classifier**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
 
-<p align="left">
-<a href="https://chriskhanhtran.github.io/projects/detect-spam-nlp.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb">GitHub</a>
-</p>
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
+
 <div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/detect-spam-nlp.png"/>
@@ -41,7 +40,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 [**Credit Risk Prediction Web App**](https://github.com/chriskhanhtran/credit-risk-prediction)
 
-[![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_%20App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
+[![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/chriskhanhtran/credit-risk-prediction/blob/master/documents/Notebook.ipynb)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/credit-risk-prediction)
 
@@ -53,10 +52,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 [**Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
 
-<p align="left">
-<a href="https://chriskhanhtran.github.io/projects/ames-house-price.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb">GitHub</a>
-</p>
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
+
 <div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/ames-house-price.jpg"/>
@@ -65,10 +63,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 [**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/projects/breast-cancer.html)
 
-<p align="left">
-<a href="https://chriskhanhtran.github.io/projects/breast-cancer.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb">GitHub</a>
-</p>
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/breast-cancer.html)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb)
+
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast-cancer.png"/>
@@ -77,9 +74,8 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 [**Business Analytics Conference 2018: How is NYC's Government Using Money?**](https://chriskhanhtran.github.io/pdf/bac2018.pdf)
 
-<p align="left">
-<a href="https://chriskhanhtran.github.io/pdf/bac2018.pdf">Research Poster</a>
-</p>
+[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](https://chriskhanhtran.github.io/pdf/bac2018.pdf)
+
 <div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/bac2018.JPG"/>
@@ -88,6 +84,8 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 
 ## Filmed by me
+
+[![View My Films](https://img.shields.io/badge/YouTube-View_My_Films-grey?logo=youtube&labelColor=FF0000)](https://www.youtube.com/watch?v=vfZwdEWgUPE)
 
 <div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
 <br>
