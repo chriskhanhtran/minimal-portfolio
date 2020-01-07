@@ -27,7 +27,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Detect Spam Messages - TF-IDF and Naive Bayes Classifier**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+[**Detect Spam Messages: TF-IDF and Naive Bayes Classifier**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
