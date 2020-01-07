@@ -16,17 +16,13 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 [**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
 
-[Notebook](/projects/detect-food-trends-facebook.html)| [GitHub](https://github.com/chriskhanhtran/facebook-detect-food-trends)
-
-<p align="left">
-<a href="https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/facebook-detect-food-trends">GitHub</a>
-</p>
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open%20Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html) | [![View on GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
 
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png"/>
 <br>
+
 ---
 [**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
 
