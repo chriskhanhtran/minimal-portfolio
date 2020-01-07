@@ -13112,19 +13112,19 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1-Introduction">1 Introduction<a class="anchor-link" href="#1-Introduction">&#182;</a></h2>
+<h2 id="1.-Introduction">1. Introduction<a class="anchor-link" href="#1.-Introduction">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In order to detect emerging trends of food consumption from social media data, I employed two simple methods:</p>
+<p>In order to detect emerging trends of food consumption from social media data, I employ two simple methods:</p>
 <ul>
-<li>In the first method, I creat <strong>word counts</strong> of each ingredient mentioned in Facebook posts from 01-2015 to 12-2015. For each month, I look at the top mentioned ingredients, then I plot the trend of these ingredients being mentioned over time to detect abrupt changes in the time series. However, with this method, I can only identify the trend of a single ingredient and cannot tell what ingredient it is being mentioned with. For example, I can only see the trend of "Cauliflower," however this trend has a lot of noise because "Cauliflower" can be used with many other ingredients in different recipe, making it hard to detect the rise of "Cauliflower Rice."</li>
+<li>In the first method, I creat <strong>word counts</strong> of each ingredient mentioned in Facebook posts from 01-2015 to 12-2015. For each month, I look at the most mentioned ingredients, then I plot the trend of these ingredients being mentioned over time to detect abrupt changes in the time series. However, with this method, I can only identify the trend of a single ingredient and cannot tell what ingredient it is being mentioned with. For example, I can only see the trend of <strong>cauliflower</strong>, however this trend has a lot of noise because <strong>cauliflower</strong> can be used with any other ingredients, making it hard to detect the rise of <strong>cauliflower rice</strong>.</li>
 </ul>
 <ul>
-<li>From the limit of single-word-count method mentioned above, in the 2nd method, I built a <strong>co-occurence matrix</strong> of ingredients for each month and observed the top 50 ingredient combination. After that, I calculated <strong>Lift</strong> and <strong>PPMI</strong>. If I identify any interesting ingredient combination emerging from this analysis, I will plot time-series data of this ingredient combination to see whether it could be an emerging food trend. After validating this method on <em>pumpkin pie</em>, <em>cauliflower rice</em> and <em>vegetable noodle</em>, I found this method showed a fast and accurate detection of food trends.</li>
+<li>In the second method, to handle the limits of the first method, I contruct <strong>co-occurence matrices</strong> of ingredients and calculate <strong>Lift</strong> and <strong>PPMI</strong>. Then, I observe the top 20 ingredient combinations in each month to identify emerging food trends and then plot time-series data to validate these findings. After validating this method on <strong>pumpkin pie</strong>, <strong>cauliflower rice</strong> and <strong>vegetable noodle</strong>, I find it show a fast and accurate detection of food trends.</li>
 </ul>
 <p>First, let's load libraries and data that we are going to use in this project.</p>
 
@@ -13284,16 +13284,16 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2-Trend-Detection">2 Trend Detection<a class="anchor-link" href="#2-Trend-Detection">&#182;</a></h2>
+<h2 id="2.-Trend-Detection">2. Trend Detection<a class="anchor-link" href="#2.-Trend-Detection">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As mentioned in the introduction, below is the implementation of the two methods I used to detect food trends:</p>
+<p>As mentioned in the introduction section, below is the implementation of the two methods I use to detect food trends:</p>
 <ul>
-<li>Simple Word Counts</li>
+<li>Word Counts</li>
 <li>Co-occurence Matrix, Lift and PPMI</li>
 </ul>
 
@@ -13303,7 +13303,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.1-Word-Counts">2.1 Word Counts<a class="anchor-link" href="#2.1-Word-Counts">&#182;</a></h3>
+<h3 id="2.1.-Word-Counts">2.1. Word Counts<a class="anchor-link" href="#2.1.-Word-Counts">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13388,7 +13388,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This method detects accurately the trend of "pumpkin," which is mentioned the most around Thanksgiving. However, it is very hard to use this method to detect new food trends such as "Cauliflower Rice," because in this analysis "Cauliflower" can be mentioned with any other ingredients and this trend only correlates with the increasing number of Facebook posts.</p>
+<p>This method detects accurately the trend of <strong>pumpkin</strong>, which is mentioned the most around Thanksgiving. However, it is very hard to use this method to detect new food trends such as <strong>cauliflower rice</strong>, because in this analysis <strong>cauliflower</strong> can be mentioned with any other ingredients and this trend only correlates with the increasing number of Facebook posts.</p>
 
 </div>
 </div>
@@ -13473,7 +13473,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In the 2nd method, I created a co-occurence matrix of 940 ingredients for every month from 01-2011 to 12-2015. Then I stacked these 60 matrixes into a 3-dimensional array of shape <code>(60, 940, 940)</code>. For each month, I looked at the top 50 mentioned ingredient combinations to see whether there is any interesting combination being mentioned. Then I examined the trend of these combinations over time to see whether there are abrupt changes.</p>
+<p>In the 2nd method, I creat a co-occurence matrix of 940 ingredients for every month from 01-2011 to 12-2015. Then I stack these 60 matrices into a 3-dimensional array of shape <code>(60, 940, 940)</code>. For each month, I look at the 50 most mentioned ingredient combinations to see whether there is any interesting combination being mentioned. Then I examine the trend of these combinations over time to see whether there are abrupt changes.</p>
 
 </div>
 </div>
@@ -13530,7 +13530,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we will create co-occurence matrix for ingredients for each months and stack them together to make a 3D array with shape (60, 940, 940).</p>
+<p>Now we will create co-occurence matrix of ingredients for each month and stack them together to make a 3D array with shape (60, 940, 940).</p>
 
 </div>
 </div>
@@ -13561,7 +13561,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's save the ouput so that we will not have to re-compute co-occurence matrix data in the future.</p>
+<p>Let's save the ouput so that we will not have to re-compute the co-occurence matrices in the future.</p>
 
 </div>
 </div>
@@ -13605,7 +13605,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>With co-occurence matrix, we can compute <strong>Lift</strong> and <strong>PPMI</strong>. These two metrics indicates how much more than by chance two words occur together.</p>
+<p>With co-occurence matrices, we can compute <strong>Lift</strong> and <strong>PPMI</strong>. These two metrics tell us how much more than by chance two words occur together.</p>
 
 </div>
 </div>
@@ -13679,7 +13679,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's define functions to extract indices of largest values in our data.</p>
+<p>Let's define functions to extract indices of the largest values in our data.</p>
 
 </div>
 </div>
@@ -13741,7 +13741,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Below is an example of the top 10 ingredient combinations being mentioned on Facebook posts on November 2014 from Co-occurence Matrix. Ingredient combinations from co-occurence matrix are regular foods/ingredients like <code>pepper salt</code>, <code>ice cream</code>, <code>chocolate cake</code>. We can identify some foods that are special for November, such as <code>pumpkin pie</code>. However, it is hard to detect new trends from these result.</p>
+<p>Below is an example of the top 10 ingredient combinations being mentioned in Facebook posts on November 2014 from the co-occurence matrix. Ingredient combinations from the co-occurence matrix are regular foods/ingredients like <strong>pepper salt</strong>, <strong>ice cream</strong> or <strong>chocolate cake</strong>. We can identify some foods that are special for November, such as <strong>pumpkin pie</strong>. However, it is hard to detect new trends from these results.</p>
 
 </div>
 </div>
@@ -13790,7 +13790,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>On the other hand, results from lift data tells us interesting combinations that are rare to see such as <code>guinea fowl</code>, <code>chervil blini</code> and <code>bresaola fleur</code>. These results show up approximately 20,000 times more than by chance. PPMI data basically tells us the same thing. With Lift data, we can just look at the top results in each month to identify new trends, and verify these trends by plotting time-series.</p>
+<p>On the other hand, results from <strong>lift</strong> data tell us interesting combinations that are rare to see such as <strong>guinea fowl</strong>, <strong>chervil blini</strong> and <strong>bresaola fleur</strong>. These results show up approximately 20,000 times more than by chance. <strong>PPMI</strong> data basically tells us the same thing. With the lift data, we can just look at the top results in each month to identify new trends, and verify these trends by plotting time-series.</p>
 
 </div>
 </div>
@@ -13892,14 +13892,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3-Validation">3 Validation<a class="anchor-link" href="#3-Validation">&#182;</a></h2>
+<h2 id="3.-Validation">3. Validation<a class="anchor-link" href="#3.-Validation">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we will plot time-series of some foods we discovered in 60 months the data covers, from 2011-1 to 2015-12, to verify our findings.</p>
+<p>Now we will plot time-series from 2011-1 to 2015-12 of some foods we discover to verify our findings.</p>
 
 </div>
 </div>
@@ -13941,7 +13941,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There were spikes of <code>Vegetable Noodle</code> in <strong>January 2012</strong> and from <strong>October 2014</strong> to <strong>December 2014</strong>. It makes sense because after that, in January 2015, Vogue (American edition) featured this trend in its Lifestyle section.</p>
+<p>There were spikes of <strong>Vegetable Noodle</strong> in <strong>January 2012</strong> and from <strong>October 2014</strong> to <strong>December 2014</strong>. It makes sense because after that, in January 2015, Vogue (American edition) featured this trend in its Lifestyle section.</p>
 
 </div>
 </div>
@@ -13984,7 +13984,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The trend of <code>Cauliflower Rice</code> is also portrayed in the below plot. The number of mentions of <code>Cauliflower Rice</code> started to increase in January 2014 and peaked in 2015.</p>
+<p>The trend of <strong>Cauliflower Rice</strong> is also portrayed in the below plot. The number of mentions of <strong>Cauliflower Rice</strong> started to increase in January 2014 and peaked in 2015.</p>
 
 </div>
 </div>
@@ -14035,7 +14035,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The trends of foods consumed in Thanksgiving are clearly portrayed in co-occurence matrix data. In below graphs, we can see the mentions of <code>pumpkin pie</code>, <code>mashed potatoes</code>, <code>cranberry sauce</code> and <code>squash butternut</code> peaked around November but remained low in other seasons.</p>
+<p>The trends of foods consumed in Thanksgiving are clearly portrayed in co-occurence matrix data. In below graphs, we can see the mentions of <strong>pumpkin pie</strong>, <strong>mashed potatoes</strong>, <strong>cranberry sauce</strong> and <strong>squash butternut</strong> peaked around November but remained low in other seasons.</p>
 
 </div>
 </div>
@@ -14242,7 +14242,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>Guinea Fowl</code> spiked on June 2011 and November 2013. What were so interesting then?</p>
+<p><code>Guinea Fowl</code> spiked on June 2011 and November 2013. What was interesting then?</p>
 
 </div>
 </div>
@@ -14320,7 +14320,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Interestingly, we picked up the very few times <code>Chervil Blini</code> and <code>Bresaola Fleur</code> showed up in our Facebook posts. This indicates that after we discover any interesting foods emerging from our analysis, we have to perform validation to make sure they are really emerging trends that worth investing in. Plotting time-series data is a good way to validate our findings. Additionally, we can conduct surveys to understand how consumers perceive potential foods.</p>
+<p>Interestingly, we picked up the very few times <strong>Chervil Blini</strong> and <strong>Bresaola Fleur</strong> showed up in our data. This indicates that after we discover any interesting foods emerging from our analysis, we have to perform validation to make sure they are really emerging trends that worth investing in. Plotting time-series data is a good way to validate our findings. Additionally, we can conduct surveys to understand how consumers perceive potentially new foods.</p>
 
 </div>
 </div>
@@ -14328,8 +14328,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4-Conclusion">4 Conclusion<a class="anchor-link" href="#4-Conclusion">&#182;</a></h2><p>The word-count method is simple and straight-forward, however the results are very noisy, making it hard to detect any interesting combinations of ingredients that are being mentioned on social media. Co-occurence matrix helps us observing the trends of specific ingredient combinations, but to identify any new trend we need to spend much time mining our results because the results from co-occurence matrix show mostly popular foods.</p>
-<p>The most effective way is to calculate Lift or PPMI from our constructed co-occurence matrixes. These metrics tell us how much more than by chance we observe pair of ingredients showing up together in Facebook posts. With this method we can detect interesting and rare foods. However, we need to validate our findings by plotting time-series data or conducting surveys before putting these foods into production.</p>
+<h2 id="4.-Conclusion">4. Conclusion<a class="anchor-link" href="#4.-Conclusion">&#182;</a></h2><p>The word-count method is simple and straightforward, however the results are very noisy, making it hard to detect any interesting combinations of ingredients that are being mentioned on social media. Co-occurence matrix helps us observing the trends of specific ingredient combinations, but to identify any new trend we need to spend much time mining our results because the results from co-occurence matrix mostly show popular foods.</p>
+<p>The most effective way is to calculate Lift or PPMI from our constructed co-occurence matrices. These metrics tell us how much more than by chance we observe pair of ingredients showing up together in Facebook posts. With this method we can detect interesting and rare foods. However, we need to validate our findings by plotting time-series data or conducting surveys before putting these foods into production.</p>
 
 </div>
 </div>
