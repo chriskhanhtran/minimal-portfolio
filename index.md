@@ -16,13 +16,27 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 [**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
 
+[Notebook](/projects/detect-food-trends-facebook.html)| [GitHub](https://github.com/chriskhanhtran/facebook-detect-food-trends)
+
 <p align="left">
 <a href="https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html">Notebook</a> |
 <a href="https://github.com/chriskhanhtran/facebook-detect-food-trends">GitHub</a>
 </p>
-<div style="text-align: justify">I first built co-occurence matrix of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occurs more than by chance, I computed Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
+
+<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png"/>
+<br>
+---
+[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+
+<p align="left">
+<a href="https://chriskhanhtran.github.io/projects/detect-spam-nlp.html">Notebook</a> |
+<a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb">GitHub</a>
+</p>
+<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
+<br>
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/detect-spam-nlp.png"/>
 <br>
 
 ---
@@ -62,18 +76,6 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
 <br>
 <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast-cancer.png"/>
-<br>
-
----
-[**Detect Spam Messages - Natural Language Processing using Python**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
-
-<p align="left">
-<a href="https://chriskhanhtran.github.io/projects/detect-spam-nlp.html">Notebook</a> |
-<a href="https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb">GitHub</a>
-</p>
-<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
-<br>
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/detect-spam-nlp.png"/>
 <br>
 
 ---
