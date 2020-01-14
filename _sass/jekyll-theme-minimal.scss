@@ -111,8 +111,14 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   
+  h1 {
+  font-size:24px;
+  }
+  
   img {
-  max-width:80%;
+  max-width:70%;
+  padding-left:10%;
+  padding-right:10%
   }
 }
 
