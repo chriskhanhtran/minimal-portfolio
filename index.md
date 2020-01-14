@@ -13,7 +13,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 **Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
 
+
 <center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png" width=600><center>
+
 
 ---
 **Detect Non-negative Airline Tweets: BERT for Sentiment Analysis**
