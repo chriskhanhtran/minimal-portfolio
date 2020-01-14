@@ -64,7 +64,7 @@ a:hover small {
 }
 
 header {
-  width:200px;
+  width:220px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -73,6 +73,7 @@ header {
 section {
   width:800;
   float:right;
+  position:fixed;
   padding-bottom:50px;
 }
 
