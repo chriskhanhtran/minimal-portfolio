@@ -106,10 +106,14 @@ img {
 }
 
 header {
-  width:200px;
+  width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  
+  img {
+  max-width:80%;
+  }
 }
 
 ul.downloads {
