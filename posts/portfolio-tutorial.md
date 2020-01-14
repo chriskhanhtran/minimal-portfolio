@@ -1,4 +1,4 @@
-# Create a Minimalism GitHub Pages for Your Data Science Portfolio in 30 Minutes
+# Create a Minimalism GitHub Page for Your Data Science Portfolio in 30 Minutes
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-chriskhanhtran.github.io-blue?logo=GitHub)](https://chriskhanhtran.github.io/)
 
