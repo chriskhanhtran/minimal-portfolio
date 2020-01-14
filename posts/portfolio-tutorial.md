@@ -132,7 +132,7 @@ There are several other themes that we can utilize to be more creative with our 
 - Cayman: [repo](https://github.com/pages-themes/cayman) - [preview](https://pages-themes.github.io/cayman/)
 - Minimal Mistake: [repo](https://github.com/mmistakes/minimal-mistakes) - [preview](https://mmistakes.github.io/minimal-mistakes/collection-archive/). I really like [this portfolio](https://leimao.github.io/) where the author uses this theme.
 
-<img src="https://github.com/chriskhanhtran/portfolio-tutorial/blob/master/images/13.PNG?raw=true">
+<center><img src="https://github.com/chriskhanhtran/portfolio-tutorial/blob/master/images/13.PNG?raw=true"></center>
 <center> A preview of the Minimal Mistake Theme </center>
     
 ### Content of Your Portfolio
@@ -146,7 +146,7 @@ Last but also the most important thing I want to say in this tutorial, the reaso
 
 Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects. You can also fork my repository and use any codes you need for the design of your GitHub page.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/portfolio-tutorial/master/images/portfolio.gif">
+<center><img src="https://raw.githubusercontent.com/chriskhanhtran/portfolio-tutorial/master/images/portfolio.gif"></center>
 <center><a href="https://chriskhanhtran.github.io">https://chriskhanhtran.github.io</a></center>
 
 ### Last Words
