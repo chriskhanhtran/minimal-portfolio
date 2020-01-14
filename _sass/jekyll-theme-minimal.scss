@@ -56,25 +56,8 @@ a:hover small {
 }
 
 .wrapper {
-  margin-right: auto;
-  margin-left:  auto;
-  max-width: 1100;
-  padding-right: 10px;
-  padding-left:  10px;
-}
-
-header {
-  width:220px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
-section {
-  max-width:800;
-  float:right;
-  position:fixed;
-  padding-bottom:50px;
+  width:1100px;
+  margin:0 auto;
 }
 
 blockquote {
@@ -119,6 +102,13 @@ th {
 
 img {
   max-width:100%;
+}
+
+header {
+  width:220px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 ul.downloads {
@@ -179,6 +169,12 @@ strong {
   font-size:14px;
   display:block;
   color:#222;
+}
+
+section {
+  width:800px;
+  float:right;
+  padding-bottom:50px;
 }
 
 small {
