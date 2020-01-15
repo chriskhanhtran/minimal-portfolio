@@ -146,7 +146,7 @@ Last but also the most important thing I want to say in this tutorial, the reaso
 
 Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects.
 
-I also made some changes in my portfolio compared to the original version, such as making the sidebar narrower and the main page wider. You can **fork** my [repo](https://github.com/chriskhanhtran/chriskhanhtran.github.io) and change the codes in the diretory `_sass/jekyll-theme-minimal.scss` as you like. However, be careful when you do so because it might mess your page up. If so, just recover the settings by copying from the theme's original repo.
+I also made some changes in my portfolio compared to the original version, such as making the sidebar narrower and the main page wider. You can **fork** my [repo](https://github.com/chriskhanhtran/chriskhanhtran.github.io) and change the codes in the diretory `_sass/jekyll-theme-minimal.scss` as you like, including changing width, font size or image size. However, be careful when you do so because it might mess your page up. If so, just recover the settings by copying from the theme's original repo.
 
 - change `max-width` in `.wrapper` to change the width of the entire page
 - change `max-width` in `section` to change the width of the main page
