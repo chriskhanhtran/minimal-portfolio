@@ -1,8 +1,6 @@
 <div align="right">
 <pre><a href="https://chriskhanhtran.github.io/">Home</a>   <a href="https://chriskhanhtran.github.io/blog">Blog</a></pre></div>
 
----
-
 # Portfolio
 ---
 ## Natural Language Processing
