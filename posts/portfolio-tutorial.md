@@ -150,7 +150,7 @@ I also made some changes in my portfolio compared to the original version, such 
 
 - change `max-width` in `.wrapper` to change the width of the entire page
 - change `max-width` in `section` to change the width of the main page
-- change `width` in `headern` to change the width of the side bar
+- change `width` in `header` to change the width of the side bar
 
 <center><img src="https://raw.githubusercontent.com/chriskhanhtran/portfolio-tutorial/master/images/portfolio.gif"></center>
 <center> My GitHub Page</center>
