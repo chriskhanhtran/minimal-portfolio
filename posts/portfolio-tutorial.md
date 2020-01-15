@@ -144,10 +144,16 @@ Last but also the most important thing I want to say in this tutorial, the reaso
 - [Building a Data Science Portfolio That Stands Out](https://www.springboard.com/blog/data-science-portfolio/) in Springboard Blog
 - [5 Data Science Projects That Will Get You Hired in 2018](https://medium.com/@dataoptimal9/5-data-science-projects-that-will-get-you-hired-in-2018-9e51525084e) in Medium
 
-Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects. You can also fork my repository and use any codes you need for the design of your GitHub page.
+Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects.
+
+I also made some changes in my portfolio compared to the original version, such as changing the width of the sidebar and the main page. You can **fork** my repo and change the codes in the diretory `_sass/jekyll-theme-minimal.scss` as you like. However, be careful when you are changing these specifications as it might mess up your page. If so, just recover the settings by copying from the original repo of the theme.
+
+- change `max-width` in `.wrapper` to change the width of the entire page
+- change `max-width` in `section` to change the width of the main page
+- change `width` in `headern` to change the width of the side bar
 
 <center><img src="https://raw.githubusercontent.com/chriskhanhtran/portfolio-tutorial/master/images/portfolio.gif"></center>
-<center><a href="https://chriskhanhtran.github.io">https://chriskhanhtran.github.io</a></center>
+<center> My GitHub Page</center>
 
 ### Last Words
 Having completed your minimalism portfolio, you now can remove or modify these files in your repository:
