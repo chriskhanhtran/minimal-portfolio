@@ -107,9 +107,10 @@ img {
 
 header {
   margin-right:100px;
-  width:250px;
+  width:270px;
   float:left;
   position:fixed;
+  clear:both;
   -webkit-font-smoothing:subpixel-antialiased;
   
   h1 {
@@ -117,9 +118,9 @@ header {
   }
   
   img {
-  max-width:80%;
-  padding-left:10%;
-  padding-right:10%
+  max-width:70%;
+  padding-left:15%;
+  padding-right:15%
   }
 }
 
@@ -188,6 +189,7 @@ section {
   max-width:650px;
   float:right;
   padding-bottom:50px;
+  clear:both;
   
   img {
   max-width:70%;
