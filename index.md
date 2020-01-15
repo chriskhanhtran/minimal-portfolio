@@ -1,5 +1,5 @@
 <div align="right">
-<h3><a href="https://chriskhanhtran.github.io/">Home</a>&nbsp;&nbsp;<a href="https://chriskhanhtran.github.io/blog">Blog</a></pre></h3>
+<h3><a href="https://chriskhanhtran.github.io/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://chriskhanhtran.github.io/blog">Blog</a></pre></h3>
 </div>
 
 # Portfolio
