@@ -15,7 +15,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <center><img src="images/nlp.png"/></center>
 
 ---
-**Detect Non-negative Airline Tweets: BERT for Sentiment Analysis**
+### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
 
@@ -24,9 +24,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <center><img src="images/BERT-classification.png"/></center>
 
 ---
-[**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
+### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
 
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
@@ -35,9 +35,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Detect Spam Messages: TF-IDF and Naive Bayes Classifier**](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-spam-nlp.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
 
 <div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
@@ -48,7 +48,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 ---
 ## Data Science
 
-[**Credit Risk Prediction Web App**](https://github.com/chriskhanhtran/credit-risk-prediction)
+### Credit Risk Prediction Web App
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/chriskhanhtran/credit-risk-prediction/blob/master/documents/Notebook.ipynb)
@@ -60,9 +60,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM**](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/ames-house-price.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
 
 <div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
@@ -71,9 +71,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Predict Breast Cancer with RF, PCA and SVM using Python**](https://chriskhanhtran.github.io/projects/breast-cancer.html)
+### Predict Breast Cancer with RF, PCA and SVM using Python
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/breast-cancer.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/breast-cancer.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb)
 
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
@@ -82,9 +82,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 
 ---
-[**Business Analytics Conference 2018: How is NYC's Government Using Money?**](https://chriskhanhtran.github.io/pdf/bac2018.pdf)
+### Business Analytics Conference 2018: How is NYC's Government Using Money?
 
-[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](https://chriskhanhtran.github.io/pdf/bac2018.pdf)
+[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/bac2018.pdf)
 
 <div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.</div>
 <br>
