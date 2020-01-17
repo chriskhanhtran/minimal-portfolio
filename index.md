@@ -12,7 +12,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 **Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
 
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png"/></center>
+<center><img src="images/nlp.png"/></center>
 
 ---
 **Detect Non-negative Airline Tweets: BERT for Sentiment Analysis**
@@ -21,7 +21,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
 
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/BERT-classification.png"/></center>
+<center><img src="images/BERT-classification.png"/></center>
 
 ---
 [**Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI**](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
@@ -31,7 +31,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png"></center>
+<center><img src="images/fb-food-trends.png"></center>
 <br>
 
 ---
@@ -42,7 +42,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/detect-spam-nlp.png"/></center>
+<center><img src="images/detect-spam-nlp.png"/></center>
 <br>
 
 ---
@@ -56,7 +56,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/credit-risk-webapp.png"/></center>
+<center><img src="images/credit-risk-webapp.png"/></center>
 <br>
 
 ---
@@ -67,7 +67,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/ames-house-price.jpg"/></center>
+<center><img src="images/ames-house-price.jpg"/></center>
 <br>
 
 ---
@@ -78,7 +78,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast-cancer.png"/></center>
+<center><img src="images/breast-cancer.png"/></center>
 <br>
 
 ---
@@ -88,7 +88,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 <div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.</div>
 <br>
-<center><img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/bac2018.JPG"/></center>
+<center><img src="images/bac2018.JPG"/></center>
 <br>
 
 ---
