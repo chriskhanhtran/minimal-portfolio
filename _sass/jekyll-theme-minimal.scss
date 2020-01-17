@@ -1,3 +1,25 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@chriskhanhtran 
+pages-themes
+/
+minimal
+138k
+18
+5211.4k
+ Code Issues 0 Pull requests 0 Actions Security Insights
+minimal/_sass/jekyll-theme-minimal.scss
+@quytelda quytelda Add 'downloads' SCSS class for download lists
+69701fe on May 24, 2018
+@mgifford@quytelda@ousia@benbalter
+272 lines (222 sloc)  3.42 KB
+  
 @import "fonts";
 @import "rouge-github";
 
@@ -40,7 +62,6 @@ a {
 }
 
 a:hover, a:focus {
-  
   color:#069;
   font-weight: bold;
 }
@@ -57,7 +78,7 @@ a:hover small {
 }
 
 .wrapper {
-  max-width:1000px;
+  width:860px;
   margin:0 auto;
 }
 
@@ -71,11 +92,11 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
-  background: #efefef;
 }
 
 pre {
   padding:8px 15px;
+  background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -106,22 +127,10 @@ img {
 }
 
 header {
-  margin-right:100px;
   width:270px;
   float:left;
   position:fixed;
-  clear:both;
   -webkit-font-smoothing:subpixel-antialiased;
-  
-  h1 {
-  font-size:24px;
-  }
-  
-  img {
-  max-width:70%;
-  padding-left:15%;
-  padding-right:15%
-  }
 }
 
 ul.downloads {
@@ -185,15 +194,9 @@ strong {
 }
 
 section {
-  margin-left:50px;
-  max-width:650px;
+  width:500px;
   float:right;
   padding-bottom:50px;
-  clear:both;
-  
-  img {
-  max-width:70%;
-  }
 }
 
 small {
@@ -289,3 +292,15 @@ footer {
     color:#444;
   }
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
