@@ -1,1 +1,1 @@
-Check out my website at https://chriskhanhtran.github.io/
+Check out the minimal portfolio at https://chriskhanhtran.github.io/minimal-portfolio
