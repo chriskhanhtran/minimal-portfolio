@@ -1,20 +1,20 @@
-title: <p align="center"> Chris Tran </p>
+title: <p align="center"> Emre Demir </p>
 
-logo: "/images/picture.png?raw=true"
+logo: "/images/whiteFoto.jpeg?raw=true"
 
-description:
-  <p align="center">
+description: <p align="center">
   <a href="pdf/resume.pdf">Resume</a> |
-  <a href="https://www.linkedin.com/in/chriskhanhtran/">LinkedIn</a> |
-  <a href="https://github.com/chriskhanhtran">GitHub</a>
+  <a href="https://www.linkedin.com/in/emred/">LinkedIn</a> |
+  <a href="https://github.com/emreds/">GitHub</a>
   </p>
-  
+
   <p align="justify">
-  I am pursing MS degree in Business Analytics at Simon Business School, University of Rochester.
+  I am pursing MS degree in Computer Science at Technical University of Munich.
   <br><br>
-  I am currently a Machine Learning Research Intern at Skim AI Technologies with a focus on NLP and Deep Learning research.
+  I am currently writing my thesis on Hardware Aware Neural Architecture Search at German Aerospace Agency(DLR), Munich.
+  In the meantime I work as a part-time Data Scientist at Siemens Financial Services, Munich.
   <br><br>
   </p>
-  
+
 theme: jekyll-theme-minimal
-google_analytics: UA-145578661-1 # Google Analytics tracking ID
+google_analytics: 5171116355 # Google Analytics tracking ID
